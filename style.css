@@ -1,0 +1,15 @@
+#box{
+    border: solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 45vw;
+    top: 25vh;
+    text-align: center;
+    background-color: azure;
+}
+
+#header{
+    background-color: aqua;
+}
