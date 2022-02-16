@@ -14,6 +14,35 @@
        
         <div id="content"><p>content</p></div>
     </div>
+    <script>
+        // $(document).ready(function(){//code}); basic syntax basically waits until the whole page is loaded before reading jQuery
+        //OR $(function(){//code});  //contain 2 parts -selector and method
+
+        $(function(){
+
+            //actions
+            $('#box').hide();
+            $('#box').hide(300);
+            $('#box').hide(300).show(1000);
+            $('#box').slideUp(1000);
+            $('#box').slideDown(1000);
+            $('#box').delay(1000);
+            $('#box').slideUp(1000).delay(1000).slideDown(1000);
+            $('#box').slideToggle(1000);
+            $('#box').toggle(1000);
+
+            //modifying css
+            $('#box').css({
+            color:'red', 
+            fontWeight:'bold',
+             'font-weight':'bold',
+             diplay:'none',
+             opacity:'0.5'
+             });
+        });
+        
+
+    </script>
     
 </body>
 </html>
